@@ -2092,11 +2092,11 @@ button {
   border-radius: 50%;
 }
 .color-mode__slider:before {
-  background-image: url("/img/header/dark-icon.svg");
+  background-image: url("../img/header/dark-icon.svg");
 }
 
 .dark-mode .color-mode__slider:before {
-  background-image: url("/img/header/light-icon.svg");
+  background-image: url("../img/header/light-icon.svg");
 }
 
 input:checked + .color-mode__slider .color-mode-icon {
