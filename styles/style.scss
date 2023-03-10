@@ -349,9 +349,10 @@ button {
 		line-height: 22/$vw;
 		color: $font-white;
 		@media (max-width:$mobile){
-			padding: 30/$mvw 35/$mvw;
+			padding: 20/$mvw 35/$mvw;
 			font-size: 22/$mvw;
 			line-height: 32/$mvw;
+			border-radius: 15px 0;
 		}
 	}
 	&__item-btm {
@@ -415,7 +416,7 @@ button {
 
 	&::after {
 		content: "";
-		background: url(../img/decor.svg);
+		background: url("../images/decor.svg");
 		width: 212.21/$vw;
 		height: 150.42/$vw;
 		position: absolute;
@@ -525,7 +526,7 @@ button {
 	
 		&::after {
 			content: "";
-			background: url(../img/decor.svg);
+			background: url("../images/decor.svg");
 			width: 212.21/$vw;
 			height: 150.42/$vw;
 			position: absolute;
@@ -647,13 +648,14 @@ button {
   }
 }
 .services {
+	margin-top: 143/$vw;
 
 	@media (max-width:$mobile){
 		 display: none; 
 	}
 
 	&__container {
-		width: 1391/$vw;
+		width: 1617.39/$vw;
 		margin: 0 auto;
 	}
 
@@ -692,7 +694,7 @@ button {
 
 	&__tabs-block {
 		display: flex;
-		gap: 65/$vw;
+		gap: 92.85/$vw;
 	}
 
 	&__tabs-block-inner {
@@ -700,7 +702,7 @@ button {
 		background: #FFFFFF;
 		box-shadow: 0 8/$vw 20/$vw rgba(0, 0, 0, 0.14);
 		border-radius: 60/$vw 0;
-		padding: 34/$vw 41/$vw;
+		padding: 34/$vw 68/$vw;
 		gap: 22/$vw;
 		img {
 			width: 42/$vw;
@@ -729,7 +731,7 @@ button {
 		background: $secondary-brown;
 		box-shadow: 0 8/$vw 20/$vw rgba(0, 0, 0, 0.14);
 		border-radius: 60/$vw 0;
-		padding: 34/$vw 41/$vw;
+		padding: 34/$vw 68/$vw;
 		gap: 22/$vw;
 		img {
 			width: 42/$vw;
@@ -758,7 +760,7 @@ button {
 .about {
 	padding-left: 266.57/$vw;
 	padding-right: 261.99/$vw;
-	margin-top: 143.16/$vw;
+	margin-top: 280/$vw;
 
 	&__container {
 		width: 1404.42/$vw;
@@ -788,8 +790,8 @@ button {
 			border: 2/$vw solid $frames-color;
 			border-radius: 140/$vw 0vw;
 			position: absolute;
-			top: 5%;
-			left: 5%;
+			bottom: 5%;
+			right: 5%;
 			z-index: -1;
 		}
 	}
@@ -813,14 +815,14 @@ button {
 		width: 489.82/$vw;
 		font-family: $font-heading;
 		font-style: normal;
-		font-weight: 600;
+		font-weight: 500;
 		font-size: 48/$vw;
 		line-height: 1.1875; /* 57/48 */
 		color: $font-black-2;
 	}
 
 	&__description {
-		margin-top: 0.86/$vw;
+		margin-top: 25/$vw;
 		width: 543.8/$vw;
 		font-family: $font-main;
 		font-style: normal;
@@ -925,7 +927,7 @@ button {
 			justify-content: space-between;
 			&::before {
 				content: "";
-				background: url(../img/decor.svg);
+				background: url("../images/decor.svg");
 				width: 212.21/$vw;
 				height: 150.42/$vw;
 				position: absolute;
@@ -935,7 +937,7 @@ button {
 			}
 			&::after {
 				content: "";
-				background: url(../img/years/years-decor.svg);
+				background: url("../images/years/years-decor.svg");
 				width: 212.55/$vw;
 				height: 153.55/$vw;
 				position: absolute;
@@ -1013,7 +1015,7 @@ button {
 
 			&::before {
 				content: "";
-				background: url(../img/decor.svg);
+				background: url("../images/decor.svg");
 				width: 212.21/$vw;
 				height: 150.42/$vw;
 				position: absolute;
@@ -1024,7 +1026,7 @@ button {
 			}
 			&::after {
 				content: "";
-				background: url(../img/years/years-decor.svg);
+				background: url("../images/years/years-decor.svg");
 				width: 212.55/$vw;
 				height: 153.55/$vw;
 				position: absolute;
@@ -1344,7 +1346,7 @@ button {
 
 			&::after {
 				content: "";
-				background: url(../img/decor.svg);
+				background: url("../images/decor.svg");
 				width: 212.21/$vw;
 				height: 150.42/$vw;
 				position: absolute;
@@ -1461,7 +1463,7 @@ button {
 			width: calc(98vw - 20px);
 			&::after {
 				content: "";
-				background: url(../img/decor.svg);
+				background: url("../images/decor.svg");
 				width: 212.21/$vw;
 				height: 150.42/$vw;
 				position: absolute;
@@ -1547,7 +1549,7 @@ button {
 
 		&::before {
 			content: "";
-			background: url(../img/decor.svg);
+			background: url("../images/decor.svg");
 			width: 212.55/$vw;
 			height: 153.55/$vw;
 			position: absolute;
@@ -1702,7 +1704,7 @@ img {
 
 		&::before {
 			content: "";
-			background: url(../img/decor.svg);
+			background: url("../images/decor.svg");
 			width: 212.55/$vw;
 			height: 153.55/$vw;
 			position: absolute;
@@ -1879,12 +1881,12 @@ img {
 		}
 
 		&:before {
-			background-image: url("../img/header/dark-icon.svg");
+			background-image: url("../images/header/dark-icon.svg");
 		}
 	}
 }
 .dark-mode .color-mode__slider:before {
-	background-image: url("../img/header/light-icon.svg");
+	background-image: url("../images/header/light-icon.svg");
 }
 
 input:checked + .color-mode__slider .color-mode-icon {
